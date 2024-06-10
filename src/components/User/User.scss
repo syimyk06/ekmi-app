@@ -1,0 +1,33 @@
+.user {
+	position: relative;
+	min-height: 200px;
+	max-width: 300px;
+	background-color: #99A4AB;
+	color: #FFFFFF;
+
+	padding: 24px 26px;
+	&__name {
+		font-size: 45px;
+	}
+	&__email {
+		font-size: 20px;
+	}
+	&__phone {
+		margin-top: 37px;
+		font-size: 18px;
+	}
+
+	&__id {
+		min-width: 80px;
+		min-height: 60px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.2); /* Combined shadow from left and top */
+	}
+}

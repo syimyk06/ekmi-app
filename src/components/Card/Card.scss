@@ -1,0 +1,11 @@
+.card {
+	min-height: 278px;
+	max-width: 570px;
+	background-color: #F2F3F5;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	&__title {
+		width: 100px;
+	}
+}

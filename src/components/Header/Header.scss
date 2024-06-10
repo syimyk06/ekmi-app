@@ -1,0 +1,19 @@
+.header {
+	height: 60px;
+    & > .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+	&__link {
+		font-family: sans-serif;
+		color: #343434;
+		font-size: 13px;
+        text-transform: uppercase;
+        &:not(:last-child) {
+			margin-right: 60px;
+		}
+	}
+
+}
